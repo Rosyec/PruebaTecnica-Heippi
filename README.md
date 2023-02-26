@@ -12,7 +12,7 @@ Nota: Los parametros deben ser enviados en el body.
 
 **Endpoint:** 
 ```
-https://prueba-tecnica-backend.vercel.app/usuarios/ - >POST
+https://prueba-tecnica-backend.vercel.app/usuarios/ - > POST
 ````
 **Parámetros Obligatorios:**
 ```
@@ -23,7 +23,7 @@ identificacion, email, contrasena, telefono, tipo_usuario.
 
 **Endpoint:** 
 ```
-https://prueba-tecnica-backend.vercel.app/usuarios/ - >GET
+https://prueba-tecnica-backend.vercel.app/usuarios/ - > GET
 ````
 **Parámetros Obligatorios:**
 ```
@@ -34,7 +34,7 @@ identificacion, contrasena.
 
 **Endpoint:** 
 ```
-https://prueba-tecnica-backend.vercel.app/usuarios/hospital - >POST
+https://prueba-tecnica-backend.vercel.app/usuarios/hospital - > POST
 ````
 **Parámetros Obligatorios:**
 ```
@@ -45,7 +45,7 @@ identificacion, nombre, direccion, servicios.
 
 **Endpoint:** 
 ```
-https://prueba-tecnica-backend.vercel.app/usuarios/paciente/:id - >POST
+https://prueba-tecnica-backend.vercel.app/usuarios/paciente/:id - > POST
 ````
 **Observación:** El path param (:id) debe ser una identificación de un hospital ya registrado.
 **Parámetros Obligatorios:**
@@ -57,7 +57,7 @@ identificacion, nombre, direccion, fecha_nacimiento, id.
 
 **Endpoint:** 
 ```
-https://prueba-tecnica-backend.vercel.app/usuarios/medico/:id - >POST
+https://prueba-tecnica-backend.vercel.app/usuarios/medico/:id - > POST
 ````
 **Observación:** El path param (:id) debe ser una identificación de un hospital ya registrado.
 **Parámetros Obligatorios:**
@@ -69,7 +69,7 @@ identificacion, email, telefono, tipo_usuario, id, especialidad, nombre.
 
 **Endpoint:** 
 ```
-https://prueba-tecnica-backend.vercel.app/usuarios - >PUT
+https://prueba-tecnica-backend.vercel.app/usuarios - > PUT
 ````
 **Parámetros Obligatorios:**
 ```
@@ -80,7 +80,7 @@ identificacion, contrasena_actual, nueva_contrasena.
 
 **Endpoint:** 
 ```
-https://prueba-tecnica-backend.vercel.app/hospital/info - >GET
+https://prueba-tecnica-backend.vercel.app/hospital/info - > GET
 ````
 **Parámetros Obligatorios:**
 ```
