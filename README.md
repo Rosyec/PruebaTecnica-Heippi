@@ -87,6 +87,6 @@ https://prueba-tecnica-backend.vercel.app/hospital/info - > GET
 id_hospital.
 ```
 
-Link al backend desplegado en Vercel: [App](https://prueba-tecnica-backend.vercel.app/)
+Link al backend desplegado en Vercel: [App](https://prueba-tecnica-heippi.vercel.app/)
 
 Realizado por: #Ceysor Parrado Leguizamon.
